@@ -20,7 +20,7 @@ While generative approaches using Large Language Models (LLMs) like GPT or LLaMA
   - **Outdated Information**: LLMs are trained on large, but static datasets. Consequently, they cannot update or acquire new information after their training phase, making them unsuitable for tasks requiring the latest or dynamically changing data.
   - **Lack of Real-time Context**: Without real-time data access, these models struggle to provide up-to-date answers, particularly in rapidly evolving domains.
 * ### Generic Responses
-   - **Broad Training Scope**: LLMs are trained on vast and diverse datasets to understand and generate language. However, this generalist training often results in responses that lack specificity and depth in specialized fields.
+   - **Broad Training Scope**: Large Language Models (LLMs) are trained on expansive and diverse datasets to comprehend and generate human language effectively. It often leads to responses that may lack the depth and specificity required in specialized fields. This generalist approach can also result in the generation of *"hallucinated"* content—responses that appear accurate and plausible but are factually incorrect or misleading.
    - **Insufficient Domain Expertise**: For domain-specific queries, such as technical documentation or niche knowledge areas, LLMs may fail to deliver precise and accurate responses, leading to generic or inaccurate answers.
  
 ## The RAG Approach 
