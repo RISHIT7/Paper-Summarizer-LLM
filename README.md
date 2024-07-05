@@ -1,7 +1,3 @@
-Here's a README file for the project using the provided architecture image and detailed explanation:
-
----
-
 # Paper-Summarizer-Bot
 
 ## Overview
