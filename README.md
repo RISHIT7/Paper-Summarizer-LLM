@@ -25,17 +25,26 @@ While generative approaches using Large Language Models (LLMs) like GPT or LLaMA
  
 ## The RAG Approach 
 RAG combines the strengths of information retrieval systems with the generative abilities of Large Language Models (LLMs) to produce more accurate and contextually relevant responses.
-* ### Retrievers :
+### A) Retrieval : 
+* #### Retrievers :
   - **Function**: Identify and retrieve relevant data from external sources or databases based on the input query.
   - **Mechanism**: Use algorithms to search through vast collections of documents or data to find the most pertinent information .
   - **Types**:
     * ***Dense Retrievers***: Use neural embeddings to understand semantic similarity (e.g., BERT-based retrievers).
     * ***Sparse Retrievers***: Use traditional keyword-based methods (e.g., TF-IDF or BM25).
       
-* ### Rankers :
+* #### Rankers :
   - **Function**: Evaluate and rank the retrieved documents or data segments based on their relevance to the query.
   - **Mechanism**: Apply scoring algorithms to prioritize the most relevant information.
 
-* ### LLMs :
-  - **Role in RAG**: Generate responses by appending retrieved data embeddings to their pre-trained knowledge.
-  - **Integration**: Instead of training the LLM on the entire dataset, the RAG approach appends embeddings of the retrieved information to enhance the model's responses dynamically.
+### B) Augmentation : 
+To augment means to add something .
+- Herein , we enhance the raw input data ( retrieved from documents provided ) with additional information or context to improve the preformance of language models during the query generation process.
+- The raw data is enriched by combining the user query with the retrieved content to create a more informaive input for the language model
+
+### C) Generation :
+- Use the retrieved information and query to draft a comphrehensive response . It analyses the key points and context from the retrieved information .
+- The language models may personalize the respinse based on intent ( sarcastic , poetic ) or intent .
+
+
+For more detailed explanation about RAGs , feel free to go through this [Research Paper](https://arxiv.org/pdf/2312.10997) 
