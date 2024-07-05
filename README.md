@@ -44,7 +44,7 @@ To augment means to add something .
 
 ### C) Generation :
 - Use the retrieved information and query to draft a comphrehensive response . It analyses the key points and context from the retrieved information .
-- The language models may personalize the respinse based on intent ( sarcastic , poetic ) or intent .
+- The language models may personalize the response based on intent ( sarcastic , poetic ) or context.
 
 
 For more detailed explanation about RAGs , feel free to go through this [Research Paper](https://arxiv.org/pdf/2312.10997) 
