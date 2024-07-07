@@ -8,3 +8,9 @@ The notebook has been conveniently provided as a Kaggle file, in the link below,
 
 ## Current Architecture (Version 1)
 ![architecture_0](../images/architecture_0.png)
+----
+### Config
+---
+- `k = 1`
+- `RecursiveTextSplitter` for Chunking and splitting
+- `Llama-3-8B-Instruct-GGUF.Q5_K_M` as Language Model
