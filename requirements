@@ -1,0 +1,7 @@
+                                          Requirement.txt files for API
+ langchain_huggingface
+ langchain_community
+ arxiv 
+ sentence-transformers 
+ faiss-cpu
+ numpy==1.26.4  
